@@ -1,0 +1,21 @@
+Para encontrar archivos ocultos en poweshell:
+Get-ChildItem -h
+
+COMANDOS GIT
+
+Para encontrar archivo gitconfig:
+git config --list --show-origin  
+
+Para editar archivo gitconfig:
+git config --global --edit
+
+Para conocer estado del git:
+git status
+
+Para añadri ficheros
+git add "nombreFichero"
+
+
+
+
+
