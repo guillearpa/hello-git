@@ -22,11 +22,15 @@ Para saber los commit que hemos hecho:
 git log
 
 Para recuperar archivo de antes:
-git chelout "nombreArchivo"
+git chekout "nombreArchivo"
+git chekout "id de la rama" 
 
 Para verlo en formato rama:
 git log --graph 
 git log --graph --pretty=oneline
 git log --graph --decorate --all --oneline
+
+Para ver los cambios con respecto a la anterior version
+git diff
 
 
