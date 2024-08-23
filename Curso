@@ -24,4 +24,9 @@ git log
 Para recuperar archivo de antes:
 git chelout "nombreArchivo"
 
+Para verlo en formato rama:
+git log --graph 
+git log --graph --pretty=oneline
+git log --graph --decorate --all --oneline
+
 
