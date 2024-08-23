@@ -18,6 +18,7 @@ git add "nombreFichero"
 Para subirlos definitivamente:
 git commit -m "comentario"
 
-
+Para saber los commit que hemos hecho:
+git log
 
 
