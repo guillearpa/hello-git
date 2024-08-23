@@ -21,4 +21,7 @@ git commit -m "comentario"
 Para saber los commit que hemos hecho:
 git log
 
+Para recuperar archivo de antes:
+git chelout "nombreArchivo"
+
 
