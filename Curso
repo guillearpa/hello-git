@@ -23,7 +23,12 @@ git log
 
 Para recuperar archivo de antes:
 git chekout "nombreArchivo"
+
+Para recuperar una rama
 git chekout "id de la rama" 
+
+Para encabezar una de las ramas
+git chekout HEAD
 
 Para verlo en formato rama:
 git log --graph 
