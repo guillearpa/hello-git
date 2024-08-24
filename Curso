@@ -35,7 +35,17 @@ git log --graph
 git log --graph --pretty=oneline
 git log --graph --decorate --all --oneline
 
+Para añadir comadno corto
+git config --global alias.tree "log --graph --decorate --all --oneline"    ---> crea un atajo llamado "tree"
+
 Para ver los cambios con respecto a la anterior version
 git diff
 
+Para ir a una versión antogua y encabezarla
+git reset --hard "Id de la versión"
 
+Para ver el historial completo de iteraciones en git
+git reflog
+
+Para etiquetar los commits que hacemos
+git tag "nomnreQueQueremos"
